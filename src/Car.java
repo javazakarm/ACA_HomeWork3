@@ -8,7 +8,7 @@ public final class Car {
         this.productionYear = productionYear;
         this.model = model;
         this.mark = mark;
-        this.engine = new Engine(engine.getHorsePower(), engine.getWeight(), engine.getMileage());
+        this.engine = engine.copy();
     }
 
     public Engine getEngine() {

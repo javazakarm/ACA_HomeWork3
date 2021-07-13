@@ -24,4 +24,7 @@ public class Engine {
         this.weight = weight;
         this.mileage = mileage;
     }
+    public Engine copy(){
+      return  new Engine(horsePower,weight,mileage);
+    }
 }
