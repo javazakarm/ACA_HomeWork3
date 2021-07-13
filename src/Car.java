@@ -12,7 +12,7 @@ public final class Car {
     }
 
     public Engine getEngine() {
-        return engine;
+        return engine.copy();
     }
 
 }
